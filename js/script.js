@@ -10,6 +10,7 @@
             back.classList.toggle('locked');
         }
 //Header burger   
+
 $(".qi__container .qi__wrap").click(function () {
   const $this = $(this);
   if (!$this.hasClass('active')) {
@@ -19,6 +20,22 @@ $(".qi__container .qi__wrap").click(function () {
   }
   $this.siblings().removeClass("active");
 });
+
+document.addEventListener("click", e => {
+  let anchorlink = e.target.closest('a[href^="#"]');
+
+  if (anchorlink) {
+    e.preventDefault();
+    let hashval = anchorlink.getAttribute('href')
+    let target = document.querySelector(hashval)
+    const yOffset = +0;
+    const y = target.getBoundingClientRect().top + window.pageYOffset + yOffset;
+    window.scrollTo({ top: y, behavior: 'smooth' });
+
+    history.pushState(null, null, hashval)
+    e.preventDefault();
+  }
+})
 
 
          
