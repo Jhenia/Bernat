@@ -684,11 +684,13 @@ header:before {
   position: initial !important;
   background: url("../img/IconRight.svg");
   background-repeat: no-repeat;
+  cursor: pointer;
   -ms-flex-item-align: end !important;
       align-self: end !important;
 }
 
 .swiper-button-prev2 {
+  cursor: pointer;
   min-width: 28px !important;
   -ms-flex-item-align: end !important;
       align-self: end !important;
@@ -780,8 +782,12 @@ header:before {
   color: #18171C;
 }
 
+.qi {
+  min-height: 710px;
+}
+
 .qi__bg {
-  margin-top: -103px;
+  margin-top: -113px;
   position: relative;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(45, 134, 251, 0)), color-stop(2.65%, rgba(45, 134, 251, 0.3)), color-stop(5.59%, rgba(45, 134, 251, 0.7)), color-stop(8.25%, #2D86FB), color-stop(35.94%, #2D86FB));
   background: -o-linear-gradient(top, rgba(45, 134, 251, 0) 0%, rgba(45, 134, 251, 0.3) 2.65%, rgba(45, 134, 251, 0.7) 5.59%, #2D86FB 8.25%, #2D86FB 35.94%);
