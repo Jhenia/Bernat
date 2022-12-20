@@ -11,7 +11,7 @@
         }
 //Header burger   
 
-$(".qi__container .qi__wrap").click(function () {
+$(".qi__wrap").click(function () {
   const $this = $(this);
   if (!$this.hasClass('active')) {
     $this.addClass("active");
@@ -36,7 +36,11 @@ document.addEventListener("click", e => {
     e.preventDefault();
   }
 })
-
+function removeCls() {
+  $('.burger').removeClass('active');
+  $('.nav').removeClass('active');
+  $('body').removeClass('locked');
+}
 
          
      
