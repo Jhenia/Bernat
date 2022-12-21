@@ -1797,6 +1797,10 @@ a {
 }
 
 @media only screen and (max-width: 767px) and (min-width: 320px) {
+  .header .header__menu ul {
+    gap: 30px;
+  }
+
   .header .header__menu {
     background-color: #fff;
   }
