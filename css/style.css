@@ -652,13 +652,6 @@ header:before {
   background-repeat: no-repeat;
 }
 
-.reviews {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(45, 134, 251, 0)), color-stop(2.2%, rgba(45, 134, 251, 0.15)), color-stop(3.86%, rgba(45, 134, 251, 0.3)), color-stop(5.11%, rgba(45, 134, 251, 0.5)), color-stop(6.54%, rgba(45, 134, 251, 0.7)), color-stop(7.85%, rgba(45, 134, 251, 0.85)), color-stop(9.34%, #2D86FB), color-stop(35.94%, #2D86FB), color-stop(81.29%, #2D86FB), color-stop(84.89%, rgba(45, 134, 251, 0.9)), color-stop(88.86%, rgba(45, 134, 251, 0.75)), color-stop(92.84%, rgba(45, 134, 251, 0.55)), to(rgba(45, 134, 251, 0)));
-  background: -o-linear-gradient(top, rgba(45, 134, 251, 0) 0%, rgba(45, 134, 251, 0.15) 2.2%, rgba(45, 134, 251, 0.3) 3.86%, rgba(45, 134, 251, 0.5) 5.11%, rgba(45, 134, 251, 0.7) 6.54%, rgba(45, 134, 251, 0.85) 7.85%, #2D86FB 9.34%, #2D86FB 35.94%, #2D86FB 81.29%, rgba(45, 134, 251, 0.9) 84.89%, rgba(45, 134, 251, 0.75) 88.86%, rgba(45, 134, 251, 0.55) 92.84%, rgba(45, 134, 251, 0) 100%);
-  background: linear-gradient(180deg, rgba(45, 134, 251, 0) 0%, rgba(45, 134, 251, 0.15) 2.2%, rgba(45, 134, 251, 0.3) 3.86%, rgba(45, 134, 251, 0.5) 5.11%, rgba(45, 134, 251, 0.7) 6.54%, rgba(45, 134, 251, 0.85) 7.85%, #2D86FB 9.34%, #2D86FB 35.94%, #2D86FB 81.29%, rgba(45, 134, 251, 0.9) 84.89%, rgba(45, 134, 251, 0.75) 88.86%, rgba(45, 134, 251, 0.55) 92.84%, rgba(45, 134, 251, 0) 100%);
-  min-height: 1053px;
-}
-
 .reviews__btn {
   margin-top: 120px !important;
   margin: 0 auto;
@@ -670,9 +663,9 @@ header:before {
   font-size: 64px;
   line-height: 75px;
   /* identical to box height */
-  padding-top: 120px;
+  padding-top: 20px;
   margin-bottom: 48px;
-  color: #FFFFFF;
+  color: #18171C;
 }
 
 .reviews__wrapper {
@@ -680,6 +673,11 @@ header:before {
   display: -ms-flexbox;
   display: flex;
   gap: 40px;
+}
+
+.reviews__wrap {
+  -webkit-filter: drop-shadow(0px 0px 8px #2D86FB);
+          filter: drop-shadow(0px 0px 8px #2D86FB);
 }
 
 .swiper-button-next2 {
@@ -1087,10 +1085,6 @@ a {
 
   .active .qi__active1 {
     height: 110px !important;
-  }
-
-  .reviews {
-    min-height: 983px;
   }
 
   .reviews__btn {
@@ -1833,6 +1827,7 @@ a {
   }
 
   .reviews__btn {
+    margin-top: 40px !important;
     gap: 15px;
     padding: 10px 29px;
     font-size: 16px;
@@ -1970,10 +1965,7 @@ a {
   }
 
   .reviews {
-    padding-bottom: 56px;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(45, 134, 251, 0)), color-stop(1.92%, rgba(45, 134, 251, 0.3)), color-stop(3.88%, rgba(45, 134, 251, 0.7)), color-stop(5.78%, #2D86FB), color-stop(35.94%, #2D86FB), color-stop(91.86%, #2D86FB), color-stop(94.58%, rgba(45, 134, 251, 0.9)), color-stop(97.17%, rgba(45, 134, 251, 0.55)), to(rgba(45, 134, 251, 0)));
-    background: -o-linear-gradient(top, rgba(45, 134, 251, 0) 0%, rgba(45, 134, 251, 0.3) 1.92%, rgba(45, 134, 251, 0.7) 3.88%, #2D86FB 5.78%, #2D86FB 35.94%, #2D86FB 91.86%, rgba(45, 134, 251, 0.9) 94.58%, rgba(45, 134, 251, 0.55) 97.17%, rgba(45, 134, 251, 0) 100%);
-    background: linear-gradient(180deg, rgba(45, 134, 251, 0) 0%, rgba(45, 134, 251, 0.3) 1.92%, rgba(45, 134, 251, 0.7) 3.88%, #2D86FB 5.78%, #2D86FB 35.94%, #2D86FB 91.86%, rgba(45, 134, 251, 0.9) 94.58%, rgba(45, 134, 251, 0.55) 97.17%, rgba(45, 134, 251, 0) 100%);
+    padding-bottom: 40px;
     min-height: auto !important;
   }
 
@@ -2008,7 +2000,7 @@ a {
   .get__title {
     font-size: 20px;
     line-height: 23px;
-    margin-top: 40px !important;
+    margin-top: 0px !important;
   }
 
   .about__title {
