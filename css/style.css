@@ -816,6 +816,7 @@ header:before {
 }
 
 .qi__wrap {
+  padding-right: 30px;
   cursor: pointer;
   -webkit-transition: 0.1s ease-out;
   -o-transition: 0.1s ease-out;
@@ -914,6 +915,10 @@ header:before {
 
 .active .qi__active4 {
   height: 67px !important;
+}
+
+.active .qi__active6 {
+  height: 40px !important;
 }
 
 .footer {
@@ -1335,6 +1340,10 @@ a {
 }
 
 @media only screen and (max-width: 1240px) and (min-width: 998px) {
+  .active .qi__active6 {
+    height: 60px !important;
+  }
+
   .header .menu__item a {
     font-size: 16px;
     line-height: 22px;
@@ -1450,6 +1459,10 @@ a {
 }
 
 @media only screen and (max-width: 997px) and (min-width: 768px) {
+  .active .qi__active6 {
+    height: 75px !important;
+  }
+
   .header__body {
     margin-top: 27px;
   }
@@ -1777,16 +1790,28 @@ a {
     height: 53px;
   }
 
+  .active .qi__active_two {
+    height: 36px !important;
+  }
+
+  .active .qi__active4 {
+    height: 52px !important;
+  }
+
+  .active .qi__active5 {
+    height: 36px !important;
+  }
+
   .active .qi__active3 {
-    height: 53px !important;
+    height: 38px !important;
   }
 
   .active .qi__active2 {
-    height: 85px !important;
+    height: 70px !important;
   }
 
   .active .qi__active1 {
-    height: 133px !important;
+    height: 103px !important;
   }
 }
 
